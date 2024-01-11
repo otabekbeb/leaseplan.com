@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: LeasePlan Russian, Arial, Helvetica, sans-serif !important;
+}
+
+.header_title_text {
+    max-width: 100%;
+    width: 1278px;
+    margin: auto;
+    color: rgb(118, 120, 120);
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4285714285714286;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header_title_text a {
+    color: rgb(118, 120, 120);
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.header_title_text i {
+    font-size: 16px;
+}
+
+.header {
+    width: 1638px;
+    max-width: 100%;
+    margin: auto;
+    height: 700px;
+    background: url("./drivers\ overview\ \ header\ 3.webp") center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_div {
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.header_div h1 {
+    width: 300px;
+    line-height: 1.2307692307692308;
+    font-weight: 300;
+    font-size: 52px;
+}
+
+.header_div p {
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.header_div_past {
+    position: relative;
+    z-index: 10;
+    background-color: rgb(238, 76, 20);
+    background-image: url("./f34a635f76c96024d644.jpg");
+    background-size: 100% 100%;
+    width: 1300px;
+    max-width: 100%;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    margin: auto;
+    margin-top: -48px;
+    color: white;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.header_div_past a {
+    margin-right: 23px;
+    color: white;
+    text-decoration: none;
+}
+.header_div_past i{
+    margin-left: 23px;
+    font-size: 40px;
+    margin-top: -8px;
+}
+.litsenziya_block{
+    width: 1250px;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.litsenziya_block_img{
+    width: 683px;
+    height: 600px;
+    border-radius: 24px;
+    background: url("./drivers\ overview\ \ my\ LP\ \(1\).webp") center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.litsenziya_block_div{
+    width: 450px;
+    max-width: 40%;
+}
+.litsenziya_block_div h1{
+    color: rgb( 0, 154, 23 );
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.litsenziya_block_div p{
+    line-height: 1.8;
+    font-size: 20px;
+    white-space: pre-line;
+}
+.litsenziya_block_div p span{
+    color: rgb( 240, 100, 0 );
+}
+.litsenziya_block_div ul{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.litsenziya_block_div ul li{
+    line-height: 1.8;
+    font-size: 20px;
+    white-space: pre-line;
+    margin-left: 20px;
+    list-style-type: ' * '
+}
+.litsenziya_block_two{
+    width: 1200px;
+    max-width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+.litsenziya_block_two h1{
+    color: rgb( 0, 74, 93 );
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.litsenziya_block_two p{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.litsenziya_block_two p a{
+    color: rgba(237, 139, 0);
+}
+
+@media (max-width:1278px) {
+    .litsenziya_block_div h1{
+        font-size: 35px;
+    }
+    .litsenziya_block_img{
+        width: 550px;
+        height: 550px;
+    }
+}
+@media (max-width:960px) {
+    .header{
+        height: 400px;
+    }
+    .header_div{
+        width: 90%;
+    }
+}
+@media (max-width:740px) {
+    .header_div{
+        width: 93%;
+        padding-top: 100px;
+    }
+    .header_div h1{
+        width: 100%;
+        font-size: 35px;
+    }
+    .header_div p{
+        font-size: 25px;
+    }
+    .header_div_past a{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .header_div_past{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header_div_past i{
+        font-size: 30px;
+        margin-top: -2px;
+        margin-left: 10px;
+    }
+    .litsenziya_block{
+        flex-wrap: wrap;
+    }
+    .litsenziya_block_div{
+         width: 100%;
+         max-width: 78%;
+    }
+    .litsenziya_block_img{
+        background-size: 100% 100%;
+        height: 65vw;
+    }
+}
+@media (max-width:480px) {
+    .header{
+        background-position: bottom;
+        background-size: 100% 50%;
+    }
+    .header_div_past a{
+        font-size: 18px;
+        margin-right: 5px;
+    }
+    .header_div_past i{
+        margin-left: 5px;
+    }
+    .header_div{
+        padding-top: 50px;
+    }
+    .header_div h1{
+        color: rgba(0, 74, 93);
+        font-size: 30px;
+    }
+    .header p{
+        color: rgb(0, 74, 93);
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .header_title_text a{
+        margin-left: 10px;
+    }
+    .litsenziya_block_div h1{
+        font-size: 25px;
+    }
+    .litsenziya_block_div p{
+        font-size: 18px;
+    }
+    .litsenziya_block_div ul li{
+        font-size: 18px;
+    }
+    .litsenziya_block_div{
+        max-width: 95%;
+    }
+    .litsenziya_block_two h1{
+        font-size: 25px;
+    }
+    .litsenziya_block_two p{
+        font-size: 18px;
+    }
+}
