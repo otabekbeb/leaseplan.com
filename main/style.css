@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto+Condensed&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 98%;
+    height: 89px;
+    background: rgb( 255, 255, 255 );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar-img{
+    width: 230px;
+    height: 89px;
+}
+.navbar-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.bg-navbar-item-1{
+    display: flex;
+    align-items: center;
+}
+.navbar-text ul,a{
+    text-decoration: none;
+    list-style: none;
+
+}
+.navbar-text ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar-text a{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--app-primary-nav-item_color,var(--vel-color-neutral-800));
+    line-height: 88px;
+    font-weight: 700;
+    border-bottom: 4px solid transparent;
+    /* transition: border-bottom 0.3s ease-out 0s; */
+    transition: 0.4s;
+    padding-bottom: 31px;
+}
+.navbar-text{
+    padding-left: 30px;
+    position: relative;
+}
+.bg-navbar-item-2{
+    display: flex;
+    align-items: center;
+}
+.faq-nav button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(246, 246, 246);
+    transition: color 0.3s ease-out 0s;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.search{
+    width: 30px;
+    height: 20px;
+    color: rgb( 152, 154, 154 );
+    transition: 0.2s;
+}
+.faq-nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.faq-nav span{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    color: var(--app-primary-nav-item_color,var(--vel-color-neutral-800));
+    line-height: 88px;
+    font-weight: 400;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.3s ease-out 0s;
+}
+.faq-nav button .search:hover{
+    color: black;
+}
+/* navbar *//* navbar *//* navbar *//* navbar */
+.main-bg-1{
+width: 100%;
+height: 570px;
+background: url("https://www.leaseplan.com/-/media/leaseplan-digital/ru/images/dealership---man-and-woman-signing-papers---cars-in-background_tinted.jpeg?rev=-1&mw=1638");
+background-size: 100%;
+}
+/* .nav-item-1::before,
+.nav-item-2::before,
+.nav-item-3::before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 260%;
+    background-color: rgb( 240, 100, 0 );
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.nav-item-1,
+.nav-item-2,
+.nav-item-3
+{
+    position: relative;
+} */
+.navbar-text a:hover{
+    border-bottom: 4px solid rgb( 240, 100, 0 );
+}
